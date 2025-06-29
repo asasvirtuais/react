@@ -1,0 +1,27 @@
+{
+  "name": "@asasvirtuais/react",
+  "version": "2.0.4",
+  "type": "module",
+  "homepage": "https://github.com/asasvirtuais/react",
+  "repository": "https://github.com/asasvirtuais/react",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "scripts": {},
+  "files": ["src"],
+  "dependencies": {
+    "react": "^19.1.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@asasvirtuais/crud": "workspace:*",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
