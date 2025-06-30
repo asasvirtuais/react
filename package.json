@@ -16,7 +16,7 @@
     "zod": "^3.25.67"
   },
   "devDependencies": {
-    "@asasvirtuais/crud": "workspace:*",
+    "@asasvirtuais/crud": "github:asasvirtuais/crud#main",
     "@types/node": "^22.15.21",
     "@types/react": "^19.1.5",
     "typescript": "^5.8.3"
