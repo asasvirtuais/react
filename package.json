@@ -21,7 +21,7 @@
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "@asasvirtuais/crud": ">=0.1.0"
+    "@asasvirtuais/crud": "github:asasvirtuais/crud#main"
   },
   "keywords": [],
   "author": "",
