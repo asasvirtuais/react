@@ -24,7 +24,9 @@ function useFormHook<Fields, Result>(props: FormProviderProps<Fields, Result>) {
       setError(null)
       try {
         if (props.onSubmit && fields.fields) {
-          await props.onSubmit(fields.fields)
+          const result = await props.onSubmit(fields.fields)
+          console.log(result)
+          setResult(result)
         }
       } catch (err) {
         console.error("Form submission failed:", err)
