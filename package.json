@@ -4,6 +4,7 @@
   "type": "module",
   "homepage": "https://github.com/asasvirtuais/react",
   "repository": "https://github.com/asasvirtuais/react",
+  "main": "./src/index.ts",
   "exports": {
     ".": "./src/index.ts",
     "./*": "./src/*",
