@@ -1,0 +1,22 @@
+{
+  "name": "@asasvirtuais/react",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@asasvirtuais/crud": "github:asasvirtuais/crud#main"
+  }
+}
