@@ -9,7 +9,7 @@ const FormReactContext = createContext<
 
 type FormProviderProps<Fields, Result> = {
   onSubmit?: (fields: Fields) => Promise<Result>
-  children: React.ReactNode | ((value: ReturnType<typeof useFormHook<Fields, Result>>) => React.ReactNode)
+  children?: React.ReactNode | ((value: ReturnType<typeof useFormHook<Fields, Result>>) => React.ReactNode)
 }
 
 function useFormHook<Fields, Result>(props: FormProviderProps<Fields, Result>) {
